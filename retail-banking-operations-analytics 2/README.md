@@ -1,0 +1,148 @@
+# Retail Banking Operations Analytics (SQL)
+
+A self-contained SQL portfolio project simulating retail banking operations
+data — customers, accounts, transactions, and loans across eight branches —
+with a set of analysis queries covering the kind of reporting a banking
+operations or analytics team runs day to day: liquidity/transaction trends,
+branch performance, customer segmentation, and loan risk.
+
+Built with SQLite so it runs anywhere with no server setup, using standard
+ANSI SQL that ports easily to PostgreSQL / SQL Server / MySQL with minor
+syntax changes.
+
+## Why this project
+
+I'm building a portfolio around business analysis and financial services
+operations roles, so the schema and questions here are modelled on the kind
+of operational reporting used in retail/commercial banking (account
+lifecycle, transaction monitoring, loan repayment risk) rather than a
+generic textbook dataset.
+
+## Entity-relationship diagram
+
+```mermaid
+erDiagram
+    BRANCHES ||--o{ ACCOUNTS : hosts
+    BRANCHES ||--o{ LOANS : issues
+    CUSTOMERS ||--o{ ACCOUNTS : owns
+    CUSTOMERS ||--o{ LOANS : holds
+    ACCOUNTS ||--o{ TRANSACTIONS : has
+    LOANS ||--o{ LOAN_PAYMENTS : schedules
+
+    BRANCHES {
+        int branch_id PK
+        string branch_name
+        string city
+        string region
+    }
+    CUSTOMERS {
+        int customer_id PK
+        string first_name
+        string last_name
+        string segment
+    }
+    ACCOUNTS {
+        int account_id PK
+        int customer_id FK
+        int branch_id FK
+        string account_type
+        string status
+    }
+    TRANSACTIONS {
+        int transaction_id PK
+        int account_id FK
+        string transaction_type
+        real amount
+        string channel
+    }
+    LOANS {
+        int loan_id PK
+        int customer_id FK
+        int branch_id FK
+        string loan_type
+        real principal_amount
+        string status
+    }
+    LOAN_PAYMENTS {
+        int payment_id PK
+        int loan_id FK
+        string payment_status
+    }
+```
+
+## Project structure
+
+```
+.
+├── schema.sql          -- DDL: tables, constraints, indexes
+├── load_data.py         -- builds data/banking.db from schema.sql + CSVs
+├── queries.sql          -- all analysis queries, organised by technique
+├── data/
+│   └── csv/              -- raw seed data (branches, customers, accounts, ...)
+└── README.md
+```
+
+## Getting started
+
+```bash
+git clone <this-repo>
+cd retail-banking-operations-analytics
+python load_data.py          # builds data/banking.db
+sqlite3 data/banking.db      # open a shell and paste queries from queries.sql
+# or: sqlite3 data/banking.db < queries.sql
+```
+
+Requires Python 3 (standard library only, no dependencies) and optionally
+the `sqlite3` CLI for exploring interactively.
+
+## Dataset
+
+Synthetic but internally consistent — generated with fixed random seeds so
+results are reproducible. Roughly:
+
+| Table          | Rows   |
+|----------------|--------|
+| branches       | 8      |
+| customers      | 400    |
+| accounts       | 616    |
+| transactions   | ~12,000 |
+| loans          | 165    |
+| loan_payments  | ~6,800 |
+
+**Known simplification:** balances are summed across accounts regardless of
+currency (GBP/INR) for simplicity — in a production system you'd convert to
+a base currency first.
+
+## What the queries cover
+
+`queries.sql` is organised into six sections, going from basic to advanced:
+
+1. **Foundational lookups** — filtered joins across customers/accounts/branches
+2. **Aggregation & grouping** — `GROUP BY` / `HAVING`, transaction mix by type
+3. **Multi-table joins** — derived account balances, a "customer 360" view
+4. **Subqueries & CTEs** — top customers by flow, digital-only customers, `NTILE()` balance quartiles
+5. **Window functions** — running balance (`SUM() OVER`), branch ranking (`RANK()`), month-over-month growth (`LAG()`), cumulative loan disbursement
+6. **Business insights** — churn-risk accounts (no activity in 90 days), on-time/late/missed payment rates, branch default-rate ranking, account-opening trend
+
+Sample — month-over-month transaction volume with growth %:
+
+```sql
+WITH monthly AS (
+    SELECT strftime('%Y-%m', transaction_date) AS txn_month,
+           ROUND(SUM(amount), 2) AS net_amount
+    FROM transactions
+    GROUP BY txn_month
+)
+SELECT txn_month, net_amount,
+       LAG(net_amount) OVER (ORDER BY txn_month) AS prev_month_amount,
+       ROUND((net_amount - LAG(net_amount) OVER (ORDER BY txn_month))
+             / NULLIF(ABS(LAG(net_amount) OVER (ORDER BY txn_month)), 0) * 100, 1) AS pct_change
+FROM monthly
+ORDER BY txn_month;
+```
+
+## Possible extensions
+
+- Add a `staff` table and branch headcount vs. transaction-volume analysis
+- Build a small BI dashboard (Power BI / Tableau / Looker Studio) on top of `queries.sql`
+- Port the schema to PostgreSQL and add `EXPLAIN ANALYZE` notes on index usage

@@ -1,0 +1,401 @@
+customer_id,first_name,last_name,date_of_birth,gender,city,customer_since,segment
+1,Rohan,Gupta,1957-03-30,Female,London,2017-07-03,Retail
+2,Michael,Gupta,2003-12-05,Male,Hyderabad,2019-09-25,Retail
+3,Vivaan,Patel,1974-08-13,Male,Leeds,2021-10-01,Retail
+4,William,Iyer,2003-11-21,Female,London,2020-01-14,SME
+5,Navya,Desai,1955-08-01,Male,Chennai,2018-10-25,Retail
+6,Ishaan,Iyer,1985-03-13,Male,Pune,2019-04-06,Retail
+7,Harry,Bose,1985-11-09,Female,Mumbai,2023-03-08,Priority
+8,Liam,Gupta,1988-12-16,Male,Leeds,2018-04-15,Private Banking
+9,Sophia,Rao,1987-06-12,Male,Pune,2015-07-07,Private Banking
+10,Aadhya,Chopra,1980-12-17,Male,London,2024-09-19,Retail
+11,Noah,Singh,1995-09-05,Female,Delhi,2019-02-25,Retail
+12,Myra,Ali,1978-12-14,Male,Hyderabad,2022-02-13,Retail
+13,Liam,Malhotra,1976-12-17,Male,Birmingham,2019-04-04,Retail
+14,Rohan,Hussain,1974-09-14,Female,Mumbai,2017-07-27,Retail
+15,James,Williams,1979-01-08,Male,London,2025-03-29,SME
+16,Aisha,Smith,1974-01-28,Female,Chennai,2024-12-02,Private Banking
+17,Isla,Reddy,1978-10-06,Male,London,2023-05-10,SME
+18,Liam,Singh,1993-06-08,Female,Bangalore,2017-06-17,Retail
+19,Fatima,Wilson,1963-02-26,Male,Pune,2016-09-18,Private Banking
+20,Saanvi,Desai,1992-11-15,Male,Chennai,2019-04-13,SME
+21,Isla,Davies,1977-07-22,Male,Pune,2022-08-24,SME
+22,Sarah,Singh,1985-07-08,Male,Manchester,2019-11-16,Retail
+23,Isla,Sharma,1978-08-18,Male,Leeds,2025-03-27,Retail
+24,Rohan,Mehta,2000-07-18,Male,Delhi,2019-03-12,Retail
+25,Liam,Chopra,2002-07-31,Male,Hyderabad,2018-08-20,Priority
+26,Vivaan,Gupta,1987-07-26,Female,London,2015-08-26,Retail
+27,Ethan,Patel,1962-09-07,Female,Pune,2025-12-19,SME
+28,Laura,Reddy,1966-07-09,Female,Leeds,2016-11-07,Retail
+29,Zara,Bose,1992-12-17,Male,Leeds,2023-06-21,Private Banking
+30,Simran,Iyer,1982-12-19,Female,Bangalore,2019-11-30,SME
+31,Olivia,Gupta,1977-03-29,Male,Pune,2018-10-16,Retail
+32,Lucas,Evans,1975-08-24,Male,Mumbai,2015-10-18,Private Banking
+33,Rohan,Verma,1975-07-16,Male,Mumbai,2024-08-22,Retail
+34,Arjun,Davies,1976-05-08,Female,Birmingham,2017-05-27,SME
+35,Krishna,Malhotra,1997-05-28,Male,Birmingham,2024-01-21,Priority
+36,Diya,Gupta,1963-09-12,Female,Bangalore,2019-10-01,Priority
+37,Isla,Bose,1959-11-11,Male,Mumbai,2019-07-08,Private Banking
+38,Oliver,Desai,1964-10-20,Male,London,2017-02-18,SME
+39,Olivia,Reddy,1992-11-06,Male,Manchester,2020-03-09,Retail
+40,Arjun,Taylor,1963-10-14,Male,Leeds,2024-05-17,Retail
+41,Sai,Pillai,1976-03-16,Male,Chennai,2020-06-12,Priority
+42,Myra,Bose,1990-12-24,Male,Delhi,2019-04-02,Retail
+43,Noah,Singh,1995-10-27,Female,Chennai,2022-10-24,Private Banking
+44,William,Ali,1998-08-30,Male,London,2018-04-30,Retail
+45,Vihaan,Thomas,2003-08-23,Male,Bangalore,2015-08-23,Retail
+46,Lucas,Wilson,2000-02-11,Male,Mumbai,2025-10-10,SME
+47,Sai,Bose,1971-09-03,Male,Hyderabad,2015-10-06,Private Banking
+48,Pari,Williams,1965-10-03,Male,Hyderabad,2021-09-01,Retail
+49,Sophia,Patel,1992-08-11,Female,Manchester,2017-04-16,Private Banking
+50,Aisha,Smith,1976-05-31,Female,Chennai,2016-06-20,Private Banking
+51,Karan,Mehta,1996-01-08,Female,Pune,2015-02-08,Priority
+52,Sophia,Thomas,1963-12-21,Male,Leeds,2017-05-23,SME
+53,Anika,Reddy,1986-04-24,Male,London,2019-02-22,Retail
+54,Saanvi,Taylor,2003-09-26,Female,Hyderabad,2024-01-19,Private Banking
+55,Zara,Sharma,1981-11-10,Male,Delhi,2017-12-19,Retail
+56,Reyansh,Malhotra,1968-12-11,Female,Manchester,2021-10-13,Retail
+57,Aisha,Smith,1973-04-07,Female,Leeds,2020-06-24,Retail
+58,Vihaan,Patel,1992-12-31,Female,Mumbai,2015-01-15,Retail
+59,Laura,Reddy,1978-07-02,Male,Birmingham,2021-03-09,Private Banking
+60,Amelia,Evans,1955-11-13,Male,Pune,2025-08-06,Private Banking
+61,Ishaan,Evans,1958-03-26,Female,Hyderabad,2021-03-13,Retail
+62,Amelia,Reddy,1958-10-02,Female,Bangalore,2025-01-30,Retail
+63,Harry,Iyer,1977-05-21,Male,Bangalore,2023-10-01,SME
+64,Charlotte,Roberts,1968-11-12,Male,Delhi,2025-12-12,Retail
+65,Charlotte,Sharma,1971-02-03,Female,Chennai,2023-12-30,Private Banking
+66,Michael,Desai,1977-04-06,Female,Delhi,2023-10-31,Private Banking
+67,Reyansh,Williams,1958-06-22,Female,London,2017-03-28,Priority
+68,Harry,Mehta,1975-06-02,Male,Mumbai,2022-05-27,Retail
+69,Jack,Smith,1979-12-30,Male,Manchester,2018-12-09,Private Banking
+70,Fatima,Williams,2003-02-08,Female,Mumbai,2016-04-17,Retail
+71,Ananya,Thomas,1978-10-25,Male,Pune,2021-09-09,Priority
+72,Harry,Malhotra,1983-02-21,Female,Hyderabad,2020-09-25,Retail
+73,Noah,Rao,1972-01-20,Female,Mumbai,2022-12-13,Priority
+74,Aarav,Davies,2003-04-22,Male,Bangalore,2019-11-02,Retail
+75,Neha,Pillai,1984-08-15,Female,Pune,2023-01-27,Retail
+76,Fatima,Mehta,1991-08-22,Female,Chennai,2022-10-26,Retail
+77,William,Reddy,1972-03-18,Female,Chennai,2022-08-06,Private Banking
+78,Ananya,Roberts,1981-12-31,Female,Leeds,2024-05-07,Retail
+79,Riya,Mehta,1973-11-09,Female,Hyderabad,2021-10-20,Private Banking
+80,James,Taylor,1994-08-20,Female,London,2020-09-24,Priority
+81,Michael,Nair,1962-08-10,Female,Leeds,2022-06-12,Private Banking
+82,Sophia,Smith,1963-05-19,Male,Manchester,2017-07-09,Retail
+83,Ishaan,Sharma,1959-02-23,Male,Birmingham,2021-11-08,Retail
+84,Isla,Brown,1972-06-11,Female,Birmingham,2019-06-25,Retail
+85,Ishaan,Khan,1955-07-01,Male,Chennai,2017-06-15,Retail
+86,Simran,Davies,1996-09-04,Male,Leeds,2017-10-17,Retail
+87,Isla,Reddy,1996-09-07,Female,Birmingham,2021-11-14,Private Banking
+88,Fatima,Brown,1995-01-02,Male,Birmingham,2020-01-18,Retail
+89,Sarah,Kumar,1979-11-17,Female,London,2018-01-29,Priority
+90,Arjun,Hussain,1980-08-19,Male,Manchester,2018-10-07,Retail
+91,Liam,Patel,1967-06-01,Male,London,2019-04-18,Private Banking
+92,Ishaan,Hussain,1974-03-12,Male,Chennai,2019-07-28,Retail
+93,Liam,Taylor,1992-04-20,Male,London,2024-05-04,Priority
+94,Noah,Rao,1956-10-02,Female,Birmingham,2015-01-25,Retail
+95,Riya,Chopra,1989-12-27,Female,Leeds,2023-05-20,Private Banking
+96,Liam,Desai,1974-10-14,Female,London,2018-01-22,Priority
+97,Ahmed,Sharma,1989-11-20,Female,Chennai,2023-02-14,Retail
+98,Isla,Pillai,1966-06-14,Male,Chennai,2021-08-21,SME
+99,Neha,Sharma,1962-07-13,Female,Delhi,2024-09-20,Priority
+100,Ananya,Verma,1978-05-04,Female,Bangalore,2017-05-16,Priority
+101,James,Smith,1989-01-05,Female,Chennai,2017-10-30,Retail
+102,Mohammed,Sharma,2003-05-24,Male,Bangalore,2017-07-07,Private Banking
+103,Arjun,Chopra,1958-08-12,Male,London,2017-03-27,Retail
+104,Sophia,Reddy,1976-05-26,Male,Birmingham,2022-07-05,Retail
+105,Ethan,Iyer,1996-09-20,Female,Bangalore,2016-11-18,SME
+106,Emma,Malhotra,1965-04-11,Male,Manchester,2016-03-18,SME
+107,Vivaan,Pillai,1982-12-27,Female,Chennai,2025-07-23,Private Banking
+108,Diya,Patel,1976-10-14,Male,Manchester,2024-07-14,Private Banking
+109,Emma,Desai,1965-11-10,Male,Bangalore,2020-12-22,Priority
+110,Neha,Johnson,1961-03-09,Female,Mumbai,2024-07-11,Priority
+111,Ahmed,Gupta,1993-11-22,Female,Birmingham,2022-12-07,Retail
+112,Amelia,Nair,2001-10-22,Female,Hyderabad,2024-01-24,SME
+113,Laura,Wilson,1996-09-14,Female,Hyderabad,2018-01-04,Retail
+114,Pari,Joshi,1962-10-10,Female,Birmingham,2017-09-25,Priority
+115,Ethan,Roberts,1988-12-31,Female,Mumbai,2020-07-17,Retail
+116,Ananya,Wilson,1974-01-11,Female,Manchester,2018-10-26,Retail
+117,Emma,Hussain,1979-10-14,Male,Leeds,2025-08-19,Retail
+118,Sai,Kumar,1991-06-18,Female,Leeds,2023-07-03,Retail
+119,Simran,Wilson,1999-01-13,Female,Mumbai,2016-01-17,Retail
+120,Aadhya,Williams,1976-10-29,Female,Hyderabad,2019-02-20,Priority
+121,William,Davies,1985-11-03,Female,Leeds,2018-09-16,Retail
+122,Simran,Taylor,1979-04-22,Female,Manchester,2017-08-02,Retail
+123,Daniel,Iyer,1983-04-23,Male,Leeds,2025-08-30,Private Banking
+124,Ananya,Iyer,1974-05-31,Female,Manchester,2023-02-15,SME
+125,Sarah,Davies,1980-05-22,Male,London,2018-04-28,Retail
+126,George,Nair,1982-02-12,Male,Leeds,2016-06-02,Retail
+127,Aditya,Verma,1981-03-17,Male,Birmingham,2016-02-25,Retail
+128,Ethan,Mehta,1997-02-10,Female,Birmingham,2018-10-27,Retail
+129,Vihaan,Singh,1997-11-10,Male,Pune,2019-06-30,Priority
+130,Arjun,Thomas,1959-10-23,Male,Delhi,2024-02-05,SME
+131,Riya,Patel,1977-04-07,Male,Leeds,2023-07-29,Priority
+132,Emma,Roberts,1975-04-01,Female,Birmingham,2025-03-10,Priority
+133,Riya,Bose,1993-06-21,Female,Hyderabad,2021-12-18,Retail
+134,Sophia,Malhotra,1963-11-26,Male,London,2017-12-19,Private Banking
+135,Sai,Nair,1976-07-08,Male,Leeds,2015-11-04,Retail
+136,Aarav,Brown,1995-06-02,Female,Manchester,2015-05-14,Retail
+137,Kiara,Hussain,1980-05-13,Female,Pune,2022-09-16,Retail
+138,Anika,Desai,1972-09-30,Female,Pune,2021-02-08,Retail
+139,Karan,Reddy,1978-10-31,Male,Pune,2015-09-02,Retail
+140,Riya,Roberts,1980-11-22,Female,Pune,2020-04-03,Private Banking
+141,Riya,Hussain,1991-02-10,Female,Leeds,2021-01-20,Priority
+142,Olivia,Patel,1958-07-30,Female,Bangalore,2021-10-08,Retail
+143,Vivaan,Patel,1975-07-16,Male,Manchester,2021-06-18,Retail
+144,Sarah,Chopra,1970-09-19,Female,Leeds,2022-04-22,Priority
+145,Navya,Nair,1994-02-08,Female,Pune,2020-04-09,Retail
+146,Charlotte,Smith,1983-10-21,Male,Delhi,2018-09-12,Priority
+147,Simran,Wilson,1980-11-09,Female,Leeds,2015-05-31,Priority
+148,Sai,Smith,1977-08-23,Female,Pune,2025-11-17,Priority
+149,Fatima,Joshi,1955-02-07,Female,Chennai,2015-08-11,Retail
+150,Zara,Johnson,1999-09-21,Female,Mumbai,2017-04-13,Retail
+151,William,Reddy,1980-11-03,Female,Birmingham,2016-05-12,Retail
+152,Rohan,Roberts,1976-06-20,Male,Manchester,2021-03-06,Retail
+153,William,Brown,1963-05-13,Male,Pune,2020-03-05,Retail
+154,Karan,Joshi,1968-10-24,Female,Manchester,2020-09-15,Private Banking
+155,Navya,Brown,1998-04-15,Female,London,2020-02-14,SME
+156,Ishaan,Williams,1972-02-06,Male,Pune,2018-02-05,Priority
+157,Oliver,Pillai,2000-07-20,Female,Mumbai,2018-03-04,Private Banking
+158,Riya,Joshi,1998-12-05,Male,Birmingham,2021-01-15,Priority
+159,Harry,Smith,2003-10-03,Female,Birmingham,2025-06-17,Retail
+160,Diya,Hussain,1976-06-04,Female,London,2024-08-07,Priority
+161,Aditya,Smith,1997-06-07,Female,Chennai,2022-06-11,Private Banking
+162,Ishaan,Wilson,1958-04-28,Male,Leeds,2025-10-29,SME
+163,Oliver,Bose,1964-01-02,Female,Pune,2020-11-24,Priority
+164,Aarav,Malhotra,1967-12-07,Female,Delhi,2015-11-03,Priority
+165,Anika,Smith,1990-08-29,Male,Bangalore,2024-07-23,Private Banking
+166,Liam,Williams,1983-05-30,Female,Leeds,2015-05-28,SME
+167,Arjun,Kumar,1980-10-12,Male,Pune,2019-11-13,Retail
+168,Sarah,Khan,1964-01-07,Female,Delhi,2022-10-13,Retail
+169,Vivaan,Verma,1984-02-07,Male,Manchester,2019-01-08,Retail
+170,Amelia,Reddy,1976-11-27,Female,Hyderabad,2022-08-24,Retail
+171,Saanvi,Nair,1962-01-31,Female,Hyderabad,2022-08-30,Retail
+172,Ahmed,Pillai,1967-11-03,Male,Birmingham,2022-02-25,Retail
+173,Isla,Singh,1955-11-04,Female,Manchester,2022-08-07,SME
+174,Saanvi,Patel,1994-08-18,Female,Hyderabad,2018-05-10,Private Banking
+175,Amelia,Hussain,1977-06-09,Female,Manchester,2017-03-26,Priority
+176,Mohammed,Gupta,1976-04-12,Female,Hyderabad,2019-01-10,SME
+177,Kiara,Hussain,1981-06-27,Male,Chennai,2018-01-29,Retail
+178,Ethan,Bose,1959-05-27,Female,Manchester,2023-09-13,Retail
+179,Emma,Desai,1986-08-10,Male,London,2021-12-18,Retail
+180,Priya,Chopra,1967-04-09,Male,Mumbai,2018-06-19,Priority
+181,Aditya,Thomas,1987-09-25,Male,Pune,2025-03-14,Retail
+182,James,Malhotra,1992-04-11,Male,London,2016-06-25,SME
+183,George,Davies,2000-01-07,Female,Delhi,2017-11-18,Priority
+184,Kiara,Malhotra,1985-05-22,Male,Birmingham,2025-10-19,Retail
+185,Ishaan,Chopra,1975-03-29,Female,Leeds,2019-02-07,Retail
+186,Jack,Sharma,1978-09-22,Male,Birmingham,2019-02-18,Private Banking
+187,Michael,Ali,1978-07-09,Female,Bangalore,2016-03-19,Private Banking
+188,Aadhya,Wilson,1957-03-31,Female,Hyderabad,2017-06-25,Private Banking
+189,Arjun,Khan,1996-08-26,Female,Chennai,2016-04-22,Retail
+190,Aditya,Verma,1982-04-22,Female,Pune,2016-02-03,Retail
+191,Liam,Reddy,1989-11-13,Female,Bangalore,2022-07-09,Private Banking
+192,Simran,Evans,1992-08-07,Male,Chennai,2022-05-06,Retail
+193,Ahmed,Roberts,1991-08-13,Female,Mumbai,2022-09-28,Retail
+194,Myra,Taylor,1994-11-23,Male,Bangalore,2016-02-11,Private Banking
+195,George,Evans,1987-03-07,Male,Chennai,2018-02-04,Retail
+196,Ayaan,Bose,1995-10-18,Male,London,2022-03-13,Private Banking
+197,Emma,Sharma,1959-07-16,Female,London,2016-05-30,SME
+198,Myra,Patel,1973-08-02,Male,London,2018-09-07,Retail
+199,Emma,Sharma,1979-11-16,Male,Delhi,2021-01-21,Retail
+200,Ananya,Gupta,1957-04-24,Male,Mumbai,2019-01-07,Retail
+201,Lucas,Smith,1956-06-01,Male,Manchester,2015-08-03,Retail
+202,Michael,Brown,2002-03-13,Male,Pune,2020-05-04,Priority
+203,Laura,Johnson,2001-01-16,Male,Birmingham,2020-08-25,Retail
+204,Sophia,Verma,2001-10-12,Female,Birmingham,2022-03-20,Retail
+205,Vihaan,Wilson,1991-01-12,Female,Pune,2020-07-01,Private Banking
+206,Olivia,Patel,1962-04-01,Female,Hyderabad,2016-08-30,Retail
+207,Krishna,Singh,1984-03-04,Female,Hyderabad,2020-12-13,Retail
+208,Isla,Davies,1993-08-05,Male,Pune,2024-07-25,Private Banking
+209,Karan,Rao,1974-04-16,Female,Birmingham,2024-12-16,Retail
+210,Charlotte,Smith,1995-09-08,Female,Chennai,2023-03-08,Retail
+211,James,Brown,1983-01-14,Female,Bangalore,2025-09-10,Retail
+212,Priya,Pillai,1997-07-19,Male,Pune,2024-04-29,Retail
+213,Sai,Brown,1963-08-31,Female,Delhi,2021-03-28,Retail
+214,Lucas,Evans,1984-07-28,Male,Chennai,2018-12-19,Private Banking
+215,Sarah,Brown,1959-08-13,Female,Hyderabad,2018-07-03,Retail
+216,Reyansh,Thomas,2000-07-09,Male,Delhi,2022-05-13,Priority
+217,Aadhya,Bose,1964-09-16,Female,Leeds,2019-02-14,Retail
+218,Sarah,Singh,1975-04-16,Female,Leeds,2025-12-05,SME
+219,Sophia,Ali,1957-05-10,Female,Mumbai,2017-01-08,Retail
+220,Simran,Chopra,1982-09-20,Female,Bangalore,2015-01-26,Retail
+221,Ishaan,Thomas,1990-12-15,Male,Delhi,2023-04-24,Private Banking
+222,Vivaan,Patel,2002-08-04,Male,Chennai,2019-09-16,Priority
+223,Oliver,Nair,1988-03-13,Female,Bangalore,2023-09-17,SME
+224,Emma,Patel,1959-09-20,Male,Delhi,2023-06-18,SME
+225,Vihaan,Ali,1962-04-27,Female,Birmingham,2022-06-04,Priority
+226,Ahmed,Roberts,1994-08-28,Female,Manchester,2017-06-01,SME
+227,Ayaan,Johnson,1993-07-27,Male,Manchester,2022-08-09,Private Banking
+228,Lucas,Wilson,2002-04-10,Female,Mumbai,2017-06-22,Priority
+229,Emma,Verma,1955-09-09,Male,Manchester,2025-08-08,Retail
+230,Laura,Reddy,1977-12-03,Female,Bangalore,2016-05-06,Retail
+231,Ahmed,Malhotra,1993-08-20,Male,Delhi,2019-04-07,SME
+232,Aisha,Kumar,1999-11-18,Female,Pune,2019-06-15,Private Banking
+233,Aditya,Brown,1956-09-06,Female,Pune,2024-09-01,Retail
+234,Ethan,Brown,1991-04-14,Female,Manchester,2016-04-16,Priority
+235,Vivaan,Smith,1970-06-02,Female,Bangalore,2015-12-27,Priority
+236,Reyansh,Kumar,1994-02-01,Female,Leeds,2015-11-19,Priority
+237,Riya,Malhotra,1985-06-17,Male,Bangalore,2023-09-27,Retail
+238,Arjun,Davies,1965-03-25,Male,Bangalore,2018-12-09,Private Banking
+239,Karan,Joshi,1968-04-01,Male,Pune,2016-08-22,Retail
+240,Diya,Nair,1968-09-18,Male,Delhi,2025-09-01,Private Banking
+241,Ahmed,Taylor,1995-04-10,Female,Bangalore,2016-09-10,Priority
+242,Arjun,Wilson,1994-09-03,Female,Manchester,2021-08-19,Retail
+243,Harry,Davies,1961-08-28,Female,Birmingham,2020-01-26,Retail
+244,Vihaan,Johnson,1980-10-02,Male,Pune,2021-11-24,SME
+245,Fatima,Williams,1996-07-06,Male,Birmingham,2025-03-12,SME
+246,Karan,Iyer,1983-11-05,Female,Leeds,2016-09-09,Retail
+247,Olivia,Gupta,1985-10-23,Male,Leeds,2022-03-31,Retail
+248,Aditya,Kumar,1994-04-10,Female,Leeds,2020-11-11,SME
+249,Saanvi,Johnson,1988-06-13,Female,Chennai,2019-08-02,Retail
+250,Priya,Roberts,1959-09-12,Female,Pune,2018-09-12,Retail
+251,William,Ali,1989-09-05,Female,Manchester,2023-02-12,Private Banking
+252,Emma,Bose,1968-06-28,Female,Pune,2021-07-14,Private Banking
+253,Ishaan,Pillai,1986-05-20,Female,Chennai,2016-06-12,SME
+254,Aisha,Patel,1982-10-10,Female,Bangalore,2024-02-13,Retail
+255,Neha,Hussain,2002-03-23,Male,Chennai,2020-09-13,Retail
+256,Vivaan,Johnson,1982-09-16,Male,London,2018-10-31,Priority
+257,Diya,Kumar,1967-05-05,Male,Pune,2018-04-26,Retail
+258,Fatima,Chopra,2003-06-05,Male,Bangalore,2024-10-29,SME
+259,Krishna,Roberts,1988-10-18,Male,Delhi,2017-01-10,Private Banking
+260,Laura,Roberts,1969-11-07,Female,Mumbai,2019-08-10,Retail
+261,Priya,Malhotra,1976-04-23,Female,Hyderabad,2018-03-13,Private Banking
+262,Olivia,Kumar,2002-11-28,Male,Manchester,2025-10-30,Priority
+263,Diya,Johnson,1994-07-12,Female,Manchester,2023-09-23,Priority
+264,Fatima,Davies,1992-07-23,Male,London,2023-12-26,SME
+265,Krishna,Bose,1977-06-06,Male,Birmingham,2024-10-20,Retail
+266,William,Pillai,1964-03-15,Male,Manchester,2015-12-10,Retail
+267,Navya,Taylor,2001-01-20,Male,Chennai,2016-01-11,Retail
+268,Olivia,Rao,1986-05-13,Male,Chennai,2015-08-07,Priority
+269,Fatima,Johnson,1976-02-25,Female,Pune,2019-03-16,Retail
+270,Vivaan,Smith,1963-11-21,Female,Delhi,2016-07-17,Retail
+271,Kiara,Pillai,1997-05-21,Male,Birmingham,2020-01-12,SME
+272,Aarav,Rao,1962-02-09,Male,Manchester,2017-06-02,Retail
+273,William,Malhotra,2002-05-08,Female,Pune,2023-09-15,Retail
+274,Pari,Mehta,1965-12-06,Male,London,2019-09-16,Private Banking
+275,Sophia,Taylor,1960-08-20,Male,Birmingham,2021-09-10,SME
+276,Vivaan,Khan,2001-03-27,Male,Delhi,2018-04-08,Priority
+277,Aarav,Roberts,1986-08-27,Male,Hyderabad,2019-09-03,Retail
+278,Neha,Ali,1962-09-06,Female,Pune,2025-09-10,SME
+279,Liam,Davies,2000-07-16,Male,Chennai,2024-10-17,Priority
+280,Aditya,Khan,1989-09-16,Female,Manchester,2023-05-20,Retail
+281,Harry,Desai,1961-01-22,Female,London,2023-03-22,Private Banking
+282,Rohan,Gupta,1984-10-30,Male,Mumbai,2018-12-14,SME
+283,Oliver,Joshi,1970-09-16,Female,Birmingham,2022-01-31,Retail
+284,Krishna,Patel,1996-01-23,Male,Manchester,2017-04-05,Retail
+285,Diya,Rao,1958-10-05,Female,Manchester,2020-10-12,Priority
+286,Liam,Wilson,1977-09-22,Male,London,2018-03-17,Retail
+287,Laura,Verma,1984-10-11,Female,Pune,2023-12-19,Retail
+288,Amelia,Rao,1990-11-20,Female,Chennai,2018-10-20,Retail
+289,Ahmed,Hussain,1999-08-20,Female,Leeds,2017-12-28,Retail
+290,Daniel,Brown,1962-01-30,Female,Hyderabad,2024-03-22,Retail
+291,Liam,Mehta,1983-10-26,Male,Pune,2018-09-05,Private Banking
+292,Kiara,Mehta,1995-01-02,Female,Delhi,2022-09-26,Priority
+293,Harry,Taylor,1958-10-19,Female,Hyderabad,2019-11-17,Retail
+294,Rohan,Desai,1960-02-23,Male,Chennai,2019-01-28,SME
+295,Michael,Ali,1969-05-09,Male,Delhi,2024-07-08,SME
+296,Priya,Desai,1994-04-24,Male,Delhi,2015-10-03,Retail
+297,Laura,Khan,1987-11-12,Female,Chennai,2025-08-25,SME
+298,Aditya,Roberts,1968-10-06,Female,Bangalore,2019-03-04,Priority
+299,Sarah,Patel,1967-05-09,Female,Chennai,2018-07-11,Private Banking
+300,Navya,Kumar,1965-03-06,Male,Delhi,2020-08-06,SME
+301,Noah,Pillai,1965-07-25,Female,Manchester,2022-11-23,Priority
+302,Myra,Roberts,1980-08-14,Female,London,2016-05-17,Retail
+303,Arjun,Taylor,1970-06-28,Female,Pune,2024-02-02,Private Banking
+304,James,Ali,1986-03-03,Male,Leeds,2021-01-29,Retail
+305,Riya,Bose,1969-02-17,Male,Bangalore,2020-09-14,Retail
+306,Ayaan,Iyer,1967-06-17,Male,Birmingham,2015-04-18,Retail
+307,William,Thomas,1988-02-05,Female,Leeds,2016-06-15,SME
+308,Sai,Patel,1982-09-30,Female,Birmingham,2020-11-23,Priority
+309,Laura,Brown,1961-08-13,Male,Bangalore,2022-03-16,Retail
+310,Olivia,Taylor,2001-05-31,Female,Delhi,2024-11-05,SME
+311,Rohan,Thomas,1971-04-29,Male,Chennai,2020-08-21,Retail
+312,Ayaan,Davies,1968-09-23,Female,Delhi,2016-10-25,Retail
+313,Aisha,Kumar,1986-01-16,Female,Pune,2017-10-23,Retail
+314,Rohan,Evans,1979-08-16,Male,Manchester,2021-11-21,SME
+315,Sai,Davies,1970-02-16,Male,Delhi,2022-05-22,SME
+316,Daniel,Rao,1985-04-16,Male,Mumbai,2015-11-29,Retail
+317,Karan,Chopra,1978-09-29,Male,Hyderabad,2019-09-03,SME
+318,Rohan,Sharma,1999-09-06,Female,Manchester,2020-06-01,Retail
+319,Priya,Williams,1981-09-07,Female,Pune,2022-09-21,Retail
+320,Saanvi,Taylor,1992-04-15,Female,Birmingham,2017-04-15,Retail
+321,Emma,Reddy,1983-01-16,Female,Bangalore,2025-12-09,Priority
+322,Krishna,Chopra,1988-03-29,Male,Bangalore,2017-09-17,Priority
+323,Ayaan,Singh,1995-05-03,Male,Delhi,2016-02-01,Retail
+324,Kiara,Williams,1992-07-06,Male,Delhi,2024-02-15,Retail
+325,Ethan,Malhotra,1983-01-21,Male,Delhi,2020-08-02,SME
+326,Isla,Wilson,1982-09-06,Female,Mumbai,2016-01-04,Priority
+327,Fatima,Taylor,1976-08-06,Male,Hyderabad,2018-12-16,Retail
+328,Vihaan,Mehta,1999-05-26,Female,Manchester,2021-01-07,Retail
+329,Reyansh,Brown,1967-01-06,Female,Bangalore,2023-07-26,Priority
+330,George,Verma,1990-12-09,Male,Hyderabad,2021-04-20,Retail
+331,George,Evans,1980-11-21,Male,Chennai,2020-08-27,Priority
+332,Sarah,Evans,1980-02-04,Male,Delhi,2025-12-07,Retail
+333,Jack,Johnson,1985-06-03,Female,Delhi,2017-03-26,SME
+334,Fatima,Williams,1999-11-12,Male,Mumbai,2015-06-09,Retail
+335,Aisha,Smith,1997-07-02,Female,Delhi,2021-10-19,SME
+336,Krishna,Smith,1983-07-30,Male,Chennai,2021-11-30,Private Banking
+337,Riya,Thomas,1985-03-06,Female,Hyderabad,2018-05-12,Priority
+338,Vivaan,Johnson,1984-09-19,Male,Chennai,2021-07-18,Retail
+339,Daniel,Bose,1957-05-23,Female,Manchester,2025-11-05,Private Banking
+340,Laura,Thomas,1975-06-01,Male,Hyderabad,2020-05-21,Retail
+341,Zara,Khan,1989-02-09,Male,London,2015-05-10,SME
+342,Simran,Gupta,1972-02-12,Male,Birmingham,2018-07-08,Priority
+343,Ishaan,Brown,1973-04-17,Female,Leeds,2023-09-10,SME
+344,Mohammed,Bose,1960-08-02,Male,Leeds,2017-04-29,SME
+345,James,Ali,1997-12-01,Female,Bangalore,2025-09-23,Retail
+346,Isla,Pillai,2002-10-30,Female,Leeds,2018-12-22,Private Banking
+347,Laura,Bose,1978-09-19,Female,London,2025-09-26,Retail
+348,Navya,Evans,1981-10-12,Male,Manchester,2023-08-25,Retail
+349,Aisha,Iyer,1998-11-14,Female,Birmingham,2018-11-29,SME
+350,Daniel,Singh,1980-10-26,Male,Hyderabad,2022-08-03,SME
+351,Noah,Rao,1990-05-25,Female,Delhi,2018-04-04,Retail
+352,Kiara,Hussain,1962-02-02,Female,Birmingham,2022-05-10,Retail
+353,Michael,Wilson,1974-03-13,Male,Leeds,2018-01-15,SME
+354,Simran,Singh,1967-04-26,Male,Hyderabad,2023-04-23,SME
+355,Pari,Kumar,1959-07-22,Male,London,2015-08-04,Retail
+356,Charlotte,Smith,1997-05-19,Male,Delhi,2015-01-22,SME
+357,Saanvi,Brown,1997-09-04,Female,London,2023-06-24,Retail
+358,James,Mehta,1960-04-22,Male,Hyderabad,2017-08-09,SME
+359,Michael,Malhotra,1958-05-07,Male,Chennai,2024-11-22,Retail
+360,Aditya,Joshi,1990-08-13,Female,Delhi,2025-07-03,Private Banking
+361,Kiara,Rao,1958-05-12,Male,Manchester,2021-05-15,SME
+362,Reyansh,Pillai,1985-01-21,Female,Birmingham,2022-03-11,SME
+363,Zara,Wilson,1967-01-15,Female,Manchester,2017-02-28,Retail
+364,Oliver,Nair,1996-03-03,Female,Delhi,2015-02-27,Private Banking
+365,Oliver,Desai,1981-06-20,Male,Delhi,2021-11-07,Private Banking
+366,Jack,Joshi,1993-05-15,Female,Pune,2019-06-30,Private Banking
+367,Reyansh,Nair,1967-08-13,Female,Bangalore,2025-06-30,Retail
+368,Aarav,Singh,1989-05-30,Male,Birmingham,2023-06-15,Retail
+369,Oliver,Mehta,1956-01-10,Female,Bangalore,2022-10-08,Retail
+370,Vihaan,Ali,1965-08-09,Female,Manchester,2016-10-16,Priority
+371,Priya,Davies,1982-11-25,Male,Manchester,2019-02-14,SME
+372,Aadhya,Kumar,1966-12-25,Female,Delhi,2020-02-07,Private Banking
+373,Emma,Johnson,1992-04-22,Female,Leeds,2023-12-29,Private Banking
+374,Myra,Chopra,1977-03-14,Male,Leeds,2020-01-04,SME
+375,Aisha,Johnson,1962-01-03,Male,Mumbai,2024-04-17,SME
+376,Fatima,Iyer,2003-02-23,Male,Delhi,2018-09-05,SME
+377,Olivia,Gupta,1973-06-05,Female,Pune,2025-01-29,SME
+378,Olivia,Desai,1959-12-29,Female,Delhi,2020-10-03,Priority
+379,Isla,Thomas,1960-03-06,Female,Manchester,2023-02-10,Retail
+380,Jack,Singh,1955-04-09,Male,Hyderabad,2015-10-27,Retail
+381,Amelia,Johnson,1960-09-20,Male,Pune,2025-06-21,Priority
+382,Aditya,Mehta,1991-09-06,Male,Delhi,2023-08-03,Private Banking
+383,Daniel,Khan,1992-09-17,Female,Chennai,2020-01-12,Priority
+384,Noah,Patel,2003-05-20,Male,Bangalore,2016-04-30,Retail
+385,Liam,Williams,2002-06-12,Male,London,2024-05-12,Retail
+386,Sarah,Sharma,1981-10-07,Female,Leeds,2019-10-04,SME
+387,Noah,Joshi,1975-08-09,Male,Birmingham,2018-11-18,Retail
+388,Navya,Iyer,1965-02-14,Male,Chennai,2021-11-23,Retail
+389,Pari,Iyer,1961-01-13,Male,Hyderabad,2015-05-18,Priority
+390,Emma,Ali,1959-05-15,Male,Mumbai,2019-07-06,Priority
+391,Aadhya,Evans,1974-06-29,Male,Delhi,2020-08-25,Retail
+392,Aadhya,Joshi,1983-08-11,Female,London,2018-05-21,Retail
+393,Neha,Davies,1974-10-31,Female,Manchester,2018-02-01,Retail
+394,William,Thomas,1970-09-17,Female,Leeds,2020-07-23,Retail
+395,Harry,Khan,1989-03-12,Female,Chennai,2019-07-31,Retail
+396,Riya,Williams,1971-07-01,Female,London,2024-07-10,Retail
+397,Riya,Bose,1967-12-14,Female,Mumbai,2021-04-22,Priority
+398,Charlotte,Evans,2002-07-19,Male,Chennai,2017-09-21,Retail
+399,Myra,Smith,1962-02-03,Female,Bangalore,2016-01-14,SME
+400,Daniel,Joshi,1972-02-02,Male,Manchester,2019-03-25,Private Banking

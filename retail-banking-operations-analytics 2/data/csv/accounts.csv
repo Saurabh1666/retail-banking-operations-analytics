@@ -1,0 +1,617 @@
+account_id,customer_id,branch_id,account_type,opened_date,status,currency
+1,1,1,Fixed Deposit,2019-03-22,Active,INR
+2,1,4,Savings,2022-06-20,Active,GBP
+3,2,4,Fixed Deposit,2017-08-19,Active,GBP
+4,2,8,Fixed Deposit,2019-08-03,Active,GBP
+5,2,4,Current,2021-05-07,Active,GBP
+6,3,6,Savings,2023-01-25,Active,INR
+7,4,2,Current,2025-07-13,Active,INR
+8,5,4,Savings,2024-04-13,Active,GBP
+9,6,3,Savings,2024-05-13,Active,INR
+10,6,4,Savings,2023-07-09,Active,GBP
+11,7,6,Savings,2025-12-16,Closed,INR
+12,8,8,Savings,2022-11-25,Active,GBP
+13,8,8,Savings,2016-04-26,Active,GBP
+14,9,2,Fixed Deposit,2016-02-02,Active,INR
+15,9,7,Savings,2020-03-10,Active,INR
+16,10,4,Savings,2023-05-16,Active,GBP
+17,11,8,Current,2015-05-09,Active,GBP
+18,11,7,Savings,2026-11-15,Active,INR
+19,12,5,Savings,2024-08-28,Active,GBP
+20,13,2,Fixed Deposit,2026-10-05,Active,INR
+21,13,4,Current,2020-08-29,Active,GBP
+22,13,5,Current,2016-10-09,Active,GBP
+23,14,4,Fixed Deposit,2020-01-25,Active,GBP
+24,15,2,Current,2015-09-17,Active,INR
+25,15,7,Savings,2025-09-04,Active,INR
+26,16,3,Savings,2024-09-24,Active,INR
+27,17,2,Fixed Deposit,2015-12-15,Active,INR
+28,18,8,Savings,2016-09-01,Active,GBP
+29,18,5,Fixed Deposit,2015-09-27,Active,GBP
+30,18,6,Savings,2019-08-25,Active,INR
+31,19,7,Fixed Deposit,2021-09-17,Active,INR
+32,19,4,Current,2023-09-23,Active,GBP
+33,20,7,Current,2018-02-20,Active,INR
+34,21,2,Savings,2022-10-04,Active,INR
+35,21,7,Savings,2016-09-14,Active,INR
+36,22,7,Fixed Deposit,2022-04-27,Active,INR
+37,22,5,Current,2025-02-07,Active,GBP
+38,23,7,Savings,2023-07-11,Active,INR
+39,24,4,Current,2016-11-03,Active,GBP
+40,24,7,Current,2018-06-17,Active,INR
+41,25,2,Savings,2021-11-30,Active,INR
+42,26,2,Savings,2019-03-16,Active,INR
+43,26,7,Savings,2017-01-04,Active,INR
+44,27,6,Fixed Deposit,2015-04-12,Active,INR
+45,28,2,Current,2020-06-11,Active,INR
+46,29,7,Savings,2021-01-11,Active,INR
+47,30,2,Savings,2021-03-10,Active,INR
+48,31,2,Savings,2020-07-13,Active,INR
+49,32,4,Savings,2018-01-14,Active,GBP
+50,33,6,Current,2023-07-10,Active,INR
+51,33,6,Savings,2024-08-28,Active,INR
+52,33,3,Savings,2019-07-04,Active,INR
+53,34,7,Fixed Deposit,2021-07-15,Active,INR
+54,35,4,Savings,2021-04-15,Active,GBP
+55,35,7,Savings,2019-06-25,Active,INR
+56,36,1,Fixed Deposit,2025-05-09,Closed,INR
+57,37,5,Current,2016-07-20,Active,GBP
+58,38,7,Current,2018-02-14,Active,INR
+59,38,4,Savings,2018-06-16,Active,GBP
+60,39,2,Savings,2025-09-30,Active,INR
+61,39,7,Savings,2023-01-24,Active,INR
+62,40,2,Savings,2020-07-26,Active,INR
+63,40,6,Savings,2015-12-29,Active,INR
+64,41,7,Fixed Deposit,2022-06-09,Closed,INR
+65,41,7,Savings,2017-03-18,Active,INR
+66,42,4,Savings,2023-10-10,Active,GBP
+67,43,3,Savings,2015-07-21,Active,INR
+68,43,5,Savings,2016-12-04,Active,GBP
+69,44,3,Savings,2022-09-11,Active,INR
+70,44,4,Savings,2022-10-24,Active,GBP
+71,44,8,Current,2025-02-23,Active,GBP
+72,45,2,Savings,2022-09-11,Active,INR
+73,46,3,Fixed Deposit,2020-06-21,Active,INR
+74,46,3,Savings,2024-07-24,Closed,INR
+75,47,7,Current,2019-03-07,Active,INR
+76,48,1,Current,2019-06-05,Active,INR
+77,49,1,Current,2019-08-13,Active,INR
+78,50,2,Current,2019-03-12,Active,INR
+79,50,4,Savings,2020-11-19,Active,GBP
+80,51,6,Current,2023-10-21,Active,INR
+81,52,8,Current,2021-09-02,Dormant,GBP
+82,53,3,Savings,2020-05-08,Active,INR
+83,53,3,Savings,2018-03-04,Active,INR
+84,54,3,Current,2024-06-27,Active,INR
+85,55,3,Current,2025-12-25,Active,INR
+86,55,3,Savings,2025-02-11,Active,INR
+87,56,1,Savings,2019-05-18,Active,INR
+88,56,8,Savings,2026-01-11,Active,GBP
+89,57,8,Savings,2015-09-10,Active,GBP
+90,57,4,Savings,2021-03-01,Active,GBP
+91,58,8,Current,2026-02-09,Active,GBP
+92,59,2,Savings,2023-03-25,Active,INR
+93,60,8,Savings,2024-07-14,Active,GBP
+94,60,4,Savings,2015-09-22,Active,GBP
+95,61,2,Savings,2017-08-19,Active,INR
+96,62,6,Fixed Deposit,2024-08-08,Active,INR
+97,63,4,Current,2016-05-01,Active,GBP
+98,64,3,Savings,2021-07-25,Active,INR
+99,65,2,Savings,2024-03-25,Dormant,INR
+100,66,3,Current,2017-12-23,Active,INR
+101,66,6,Current,2023-10-23,Active,INR
+102,66,5,Current,2023-06-01,Active,GBP
+103,67,2,Savings,2021-03-29,Active,INR
+104,67,6,Savings,2025-12-12,Active,INR
+105,68,2,Current,2025-04-13,Active,INR
+106,69,2,Current,2023-12-03,Active,INR
+107,69,7,Current,2026-02-04,Active,INR
+108,70,6,Savings,2017-12-05,Active,INR
+109,70,8,Current,2016-02-01,Active,GBP
+110,71,8,Savings,2018-07-18,Active,GBP
+111,71,1,Fixed Deposit,2024-08-05,Active,INR
+112,72,3,Fixed Deposit,2021-10-08,Active,INR
+113,72,5,Savings,2023-01-31,Active,GBP
+114,73,3,Savings,2021-11-07,Active,INR
+115,74,7,Current,2017-02-18,Active,INR
+116,74,8,Savings,2020-01-27,Active,GBP
+117,75,1,Current,2017-09-14,Closed,INR
+118,76,3,Savings,2020-02-19,Active,INR
+119,77,2,Savings,2023-03-31,Dormant,INR
+120,77,3,Savings,2017-12-26,Active,INR
+121,78,2,Savings,2015-03-11,Active,INR
+122,78,3,Savings,2019-10-12,Active,INR
+123,79,7,Current,2024-12-03,Dormant,INR
+124,80,2,Savings,2017-10-05,Active,INR
+125,81,7,Savings,2018-02-19,Active,INR
+126,82,4,Current,2021-05-23,Active,GBP
+127,82,1,Current,2021-10-07,Active,INR
+128,83,4,Current,2021-08-18,Active,GBP
+129,83,4,Savings,2017-07-12,Active,GBP
+130,84,2,Savings,2015-04-09,Closed,INR
+131,84,6,Savings,2024-06-09,Active,INR
+132,85,8,Fixed Deposit,2016-08-20,Active,GBP
+133,85,2,Savings,2019-11-03,Active,INR
+134,86,7,Savings,2026-03-28,Active,INR
+135,87,7,Savings,2018-06-04,Active,INR
+136,88,4,Fixed Deposit,2018-06-26,Active,GBP
+137,89,2,Savings,2024-10-23,Active,INR
+138,90,1,Savings,2024-09-29,Active,INR
+139,90,1,Savings,2018-12-09,Active,INR
+140,91,1,Savings,2022-10-11,Active,INR
+141,91,5,Savings,2017-11-05,Active,GBP
+142,92,2,Current,2015-08-29,Active,INR
+143,92,7,Savings,2016-06-07,Active,INR
+144,93,2,Savings,2026-06-16,Active,INR
+145,93,8,Fixed Deposit,2018-09-29,Active,GBP
+146,93,5,Current,2017-08-02,Active,GBP
+147,94,1,Fixed Deposit,2015-04-11,Active,INR
+148,95,7,Fixed Deposit,2019-01-06,Dormant,INR
+149,96,7,Savings,2020-07-26,Active,INR
+150,96,6,Savings,2016-09-30,Active,INR
+151,97,1,Savings,2026-07-27,Closed,INR
+152,98,2,Fixed Deposit,2021-05-01,Active,INR
+153,98,5,Savings,2025-03-30,Active,GBP
+154,98,4,Savings,2021-10-25,Active,GBP
+155,99,6,Current,2026-01-24,Closed,INR
+156,100,4,Savings,2024-03-13,Active,GBP
+157,100,6,Current,2015-03-20,Closed,INR
+158,101,7,Current,2021-11-24,Active,INR
+159,102,4,Savings,2016-05-05,Closed,GBP
+160,103,5,Savings,2020-03-11,Dormant,GBP
+161,104,6,Savings,2016-11-26,Active,INR
+162,105,7,Savings,2016-05-25,Active,INR
+163,106,4,Savings,2022-01-24,Dormant,GBP
+164,106,7,Current,2022-04-26,Active,INR
+165,106,5,Savings,2019-07-19,Active,GBP
+166,107,2,Savings,2018-09-08,Active,INR
+167,107,6,Savings,2023-01-14,Closed,INR
+168,108,5,Savings,2017-09-09,Active,GBP
+169,109,5,Current,2015-11-27,Active,GBP
+170,109,6,Savings,2020-07-26,Closed,INR
+171,110,1,Current,2020-11-01,Dormant,INR
+172,111,7,Fixed Deposit,2020-08-08,Active,INR
+173,112,3,Savings,2016-05-20,Dormant,INR
+174,113,3,Savings,2023-12-26,Active,INR
+175,113,2,Current,2020-10-21,Dormant,INR
+176,113,2,Savings,2016-06-12,Active,INR
+177,114,3,Savings,2022-06-09,Active,INR
+178,114,8,Savings,2024-09-18,Dormant,GBP
+179,115,1,Savings,2024-07-27,Active,INR
+180,116,3,Savings,2025-01-01,Dormant,INR
+181,117,4,Current,2026-03-10,Active,GBP
+182,118,1,Savings,2023-08-04,Active,INR
+183,118,4,Current,2026-10-17,Active,GBP
+184,119,1,Fixed Deposit,2023-01-20,Active,INR
+185,119,8,Savings,2026-04-08,Active,GBP
+186,119,5,Savings,2022-02-25,Active,GBP
+187,120,5,Savings,2025-07-31,Active,GBP
+188,121,4,Fixed Deposit,2017-03-31,Active,GBP
+189,121,4,Savings,2016-04-03,Active,GBP
+190,122,7,Savings,2018-11-24,Active,INR
+191,122,6,Current,2023-01-18,Dormant,INR
+192,122,1,Current,2022-11-20,Closed,INR
+193,123,4,Current,2026-01-15,Active,GBP
+194,123,3,Savings,2017-01-09,Active,INR
+195,124,1,Savings,2015-01-06,Active,INR
+196,124,4,Current,2022-08-23,Active,GBP
+197,125,6,Savings,2018-04-25,Active,INR
+198,125,3,Current,2026-10-21,Dormant,INR
+199,125,2,Savings,2023-11-15,Active,INR
+200,126,6,Savings,2018-07-14,Active,INR
+201,127,8,Current,2018-11-28,Active,GBP
+202,128,6,Savings,2018-12-07,Active,INR
+203,128,5,Savings,2015-01-15,Closed,GBP
+204,129,7,Fixed Deposit,2015-09-23,Active,INR
+205,129,6,Fixed Deposit,2019-12-15,Active,INR
+206,129,2,Fixed Deposit,2018-02-26,Active,INR
+207,130,6,Fixed Deposit,2018-10-07,Active,INR
+208,131,6,Savings,2020-12-12,Active,INR
+209,131,2,Savings,2017-06-04,Active,INR
+210,131,1,Savings,2024-05-30,Closed,INR
+211,132,8,Fixed Deposit,2022-11-17,Active,GBP
+212,132,2,Current,2020-01-22,Active,INR
+213,133,1,Savings,2022-02-23,Active,INR
+214,134,6,Savings,2023-06-03,Active,INR
+215,135,2,Savings,2025-10-29,Active,INR
+216,136,3,Current,2024-09-26,Active,INR
+217,137,4,Fixed Deposit,2024-03-06,Active,GBP
+218,138,5,Current,2021-09-02,Active,GBP
+219,138,1,Savings,2026-01-04,Active,INR
+220,139,7,Savings,2025-10-09,Active,INR
+221,140,3,Current,2016-11-02,Active,INR
+222,141,7,Savings,2020-12-10,Active,INR
+223,142,3,Savings,2023-07-22,Active,INR
+224,143,5,Savings,2020-11-27,Active,GBP
+225,144,1,Savings,2017-03-03,Active,INR
+226,145,7,Fixed Deposit,2020-02-07,Active,INR
+227,146,7,Fixed Deposit,2025-08-25,Active,INR
+228,146,4,Savings,2016-10-08,Active,GBP
+229,147,1,Savings,2026-08-04,Active,INR
+230,147,3,Savings,2025-01-26,Active,INR
+231,148,4,Current,2017-10-30,Active,GBP
+232,148,2,Fixed Deposit,2024-10-06,Active,INR
+233,148,3,Current,2020-10-13,Active,INR
+234,149,2,Savings,2023-11-30,Active,INR
+235,149,5,Savings,2015-04-12,Active,GBP
+236,150,7,Savings,2018-05-10,Active,INR
+237,150,2,Fixed Deposit,2017-04-07,Active,INR
+238,151,6,Fixed Deposit,2020-12-03,Active,INR
+239,151,8,Current,2025-08-11,Active,GBP
+240,152,3,Current,2024-01-04,Active,INR
+241,153,6,Current,2016-02-08,Active,INR
+242,153,5,Fixed Deposit,2015-06-15,Active,GBP
+243,154,5,Savings,2026-01-10,Dormant,GBP
+244,154,2,Fixed Deposit,2020-02-11,Active,INR
+245,155,8,Current,2022-03-13,Active,GBP
+246,155,7,Current,2017-01-01,Active,INR
+247,155,4,Fixed Deposit,2024-02-18,Active,GBP
+248,156,6,Current,2026-07-23,Active,INR
+249,156,2,Savings,2026-05-14,Active,INR
+250,157,1,Savings,2019-07-03,Dormant,INR
+251,157,4,Savings,2016-02-19,Dormant,GBP
+252,158,5,Savings,2025-05-30,Active,GBP
+253,158,2,Current,2020-06-04,Active,INR
+254,159,3,Fixed Deposit,2025-08-23,Active,INR
+255,159,6,Savings,2020-10-19,Active,INR
+256,160,5,Savings,2016-02-11,Active,GBP
+257,160,4,Fixed Deposit,2020-01-19,Active,GBP
+258,161,7,Savings,2015-03-14,Active,INR
+259,162,3,Current,2015-03-11,Active,INR
+260,163,5,Current,2021-03-05,Active,GBP
+261,163,7,Fixed Deposit,2025-04-18,Active,INR
+262,164,7,Current,2015-03-02,Active,INR
+263,165,6,Current,2021-05-04,Active,INR
+264,165,2,Savings,2022-07-17,Closed,INR
+265,166,5,Savings,2021-09-13,Active,GBP
+266,166,4,Fixed Deposit,2024-01-24,Active,GBP
+267,167,1,Current,2021-08-18,Active,INR
+268,167,7,Savings,2015-10-17,Active,INR
+269,168,4,Savings,2019-12-27,Active,GBP
+270,168,8,Fixed Deposit,2023-01-15,Active,GBP
+271,168,3,Current,2019-01-23,Active,INR
+272,169,5,Current,2019-02-08,Closed,GBP
+273,170,2,Savings,2020-01-04,Active,INR
+274,170,5,Savings,2022-06-07,Active,GBP
+275,171,8,Fixed Deposit,2025-07-21,Active,GBP
+276,171,2,Savings,2019-05-13,Active,INR
+277,172,7,Savings,2024-04-07,Active,INR
+278,172,3,Savings,2019-06-29,Active,INR
+279,173,8,Savings,2019-01-17,Active,GBP
+280,173,8,Savings,2018-12-19,Active,GBP
+281,173,1,Savings,2021-02-18,Active,INR
+282,174,3,Savings,2016-12-22,Active,INR
+283,174,7,Current,2024-01-18,Active,INR
+284,175,1,Savings,2019-06-22,Active,INR
+285,176,6,Current,2026-11-29,Active,INR
+286,176,1,Current,2020-07-31,Active,INR
+287,176,6,Savings,2017-04-21,Active,INR
+288,177,3,Savings,2016-01-10,Active,INR
+289,177,5,Savings,2026-09-02,Active,GBP
+290,178,3,Savings,2025-12-29,Active,INR
+291,179,7,Savings,2020-01-12,Active,INR
+292,180,1,Current,2018-10-16,Active,INR
+293,181,1,Savings,2020-09-26,Active,INR
+294,181,1,Current,2016-01-28,Active,INR
+295,182,1,Savings,2017-08-06,Active,INR
+296,182,7,Savings,2020-09-01,Active,INR
+297,183,1,Savings,2017-04-07,Active,INR
+298,184,3,Savings,2017-05-09,Active,INR
+299,185,5,Savings,2017-05-20,Active,GBP
+300,185,4,Current,2026-09-25,Closed,GBP
+301,186,7,Savings,2015-11-19,Active,INR
+302,187,8,Savings,2015-01-23,Active,GBP
+303,187,2,Fixed Deposit,2026-01-30,Active,INR
+304,187,2,Current,2016-09-06,Active,INR
+305,188,5,Current,2025-03-30,Closed,GBP
+306,189,8,Savings,2018-12-02,Dormant,GBP
+307,190,6,Current,2022-01-05,Active,INR
+308,190,2,Savings,2016-01-11,Active,INR
+309,191,3,Savings,2024-10-25,Closed,INR
+310,192,2,Savings,2022-09-08,Active,INR
+311,193,8,Savings,2023-08-26,Active,GBP
+312,194,7,Current,2018-09-28,Active,INR
+313,195,1,Fixed Deposit,2018-07-29,Active,INR
+314,195,8,Current,2024-10-29,Active,GBP
+315,196,6,Current,2017-12-06,Active,INR
+316,197,7,Savings,2016-06-02,Active,INR
+317,198,4,Fixed Deposit,2022-08-03,Active,GBP
+318,199,2,Savings,2020-07-29,Active,INR
+319,199,7,Savings,2016-03-23,Active,INR
+320,200,8,Fixed Deposit,2018-09-16,Active,GBP
+321,200,8,Savings,2022-06-03,Closed,GBP
+322,200,1,Savings,2023-06-29,Active,INR
+323,201,8,Savings,2025-01-18,Active,GBP
+324,202,6,Savings,2026-02-26,Active,INR
+325,203,7,Savings,2015-01-02,Dormant,INR
+326,204,5,Fixed Deposit,2019-08-22,Active,GBP
+327,204,8,Fixed Deposit,2023-02-24,Dormant,GBP
+328,205,8,Savings,2025-08-11,Active,GBP
+329,205,6,Current,2017-07-23,Active,INR
+330,206,1,Savings,2021-07-19,Active,INR
+331,206,6,Current,2016-01-11,Dormant,INR
+332,207,7,Savings,2019-05-24,Active,INR
+333,208,7,Savings,2019-04-11,Active,INR
+334,208,2,Current,2016-01-16,Dormant,INR
+335,208,2,Current,2025-02-07,Active,INR
+336,209,3,Fixed Deposit,2015-02-05,Active,INR
+337,209,1,Current,2024-09-15,Dormant,INR
+338,210,3,Current,2018-11-23,Active,INR
+339,211,7,Current,2022-03-21,Active,INR
+340,212,4,Savings,2022-09-09,Closed,GBP
+341,213,3,Savings,2026-06-28,Active,INR
+342,214,6,Current,2019-11-16,Active,INR
+343,214,5,Current,2017-12-22,Closed,GBP
+344,215,3,Savings,2022-03-25,Active,INR
+345,215,6,Current,2024-05-12,Active,INR
+346,216,5,Fixed Deposit,2024-06-22,Active,GBP
+347,216,2,Savings,2018-04-05,Active,INR
+348,217,5,Current,2018-08-11,Closed,GBP
+349,218,3,Current,2021-08-14,Active,INR
+350,218,1,Savings,2025-02-24,Active,INR
+351,219,4,Current,2023-09-21,Active,GBP
+352,219,5,Current,2016-01-20,Dormant,GBP
+353,220,6,Fixed Deposit,2016-03-16,Active,INR
+354,221,8,Current,2023-04-01,Active,GBP
+355,222,4,Current,2019-05-05,Active,GBP
+356,223,2,Savings,2018-11-24,Active,INR
+357,224,1,Savings,2020-12-04,Active,INR
+358,225,5,Savings,2025-06-17,Active,GBP
+359,225,3,Savings,2022-03-27,Active,INR
+360,226,5,Savings,2023-01-12,Active,GBP
+361,226,6,Savings,2019-02-15,Active,INR
+362,227,3,Savings,2024-01-18,Active,INR
+363,227,4,Fixed Deposit,2022-06-11,Active,GBP
+364,228,8,Fixed Deposit,2015-03-14,Active,GBP
+365,229,4,Fixed Deposit,2020-06-20,Closed,GBP
+366,230,6,Savings,2017-07-17,Active,INR
+367,230,5,Savings,2026-08-05,Dormant,GBP
+368,231,8,Savings,2021-08-25,Dormant,GBP
+369,232,2,Fixed Deposit,2018-10-03,Closed,INR
+370,233,1,Current,2019-09-23,Active,INR
+371,233,4,Fixed Deposit,2024-07-07,Dormant,GBP
+372,234,7,Current,2016-08-13,Active,INR
+373,235,8,Current,2015-11-07,Active,GBP
+374,236,5,Current,2020-02-08,Dormant,GBP
+375,237,8,Current,2024-09-17,Active,GBP
+376,238,2,Savings,2016-06-02,Active,INR
+377,239,2,Savings,2026-04-12,Active,INR
+378,239,5,Current,2021-04-25,Active,GBP
+379,240,7,Current,2015-09-10,Active,INR
+380,241,3,Current,2021-08-13,Closed,INR
+381,242,6,Fixed Deposit,2015-04-02,Active,INR
+382,243,2,Savings,2023-11-03,Active,INR
+383,243,2,Savings,2022-09-17,Active,INR
+384,244,3,Savings,2019-12-14,Active,INR
+385,244,5,Savings,2019-01-25,Active,GBP
+386,244,1,Fixed Deposit,2025-05-06,Active,INR
+387,245,2,Savings,2019-06-06,Active,INR
+388,246,6,Savings,2020-04-05,Active,INR
+389,247,4,Savings,2025-02-08,Active,GBP
+390,247,5,Current,2018-06-02,Active,GBP
+391,248,6,Fixed Deposit,2018-10-13,Active,INR
+392,249,4,Current,2024-10-12,Active,GBP
+393,250,6,Fixed Deposit,2025-05-19,Active,INR
+394,251,8,Current,2018-12-10,Active,GBP
+395,251,2,Current,2018-02-20,Dormant,INR
+396,252,2,Current,2015-06-02,Dormant,INR
+397,253,7,Current,2019-10-09,Dormant,INR
+398,253,5,Savings,2025-08-03,Active,GBP
+399,254,7,Savings,2021-07-11,Active,INR
+400,255,2,Savings,2026-04-06,Active,INR
+401,256,3,Current,2018-02-23,Active,INR
+402,257,3,Current,2025-11-04,Dormant,INR
+403,258,8,Savings,2020-12-05,Active,GBP
+404,259,4,Savings,2023-02-07,Active,GBP
+405,260,1,Savings,2022-04-08,Active,INR
+406,260,5,Current,2020-11-27,Active,GBP
+407,260,3,Savings,2023-06-28,Active,INR
+408,261,2,Savings,2023-06-10,Closed,INR
+409,261,4,Savings,2022-11-30,Active,GBP
+410,262,8,Fixed Deposit,2015-02-24,Active,GBP
+411,263,3,Savings,2026-07-17,Active,INR
+412,264,3,Savings,2017-08-27,Active,INR
+413,265,6,Current,2025-10-19,Active,INR
+414,266,3,Current,2024-03-20,Active,INR
+415,267,3,Savings,2026-07-01,Active,INR
+416,268,1,Savings,2019-01-14,Active,INR
+417,268,7,Current,2015-06-02,Dormant,INR
+418,269,5,Fixed Deposit,2019-11-10,Active,GBP
+419,269,8,Fixed Deposit,2018-10-29,Active,GBP
+420,270,3,Current,2019-01-29,Active,INR
+421,271,3,Current,2022-09-08,Dormant,INR
+422,272,2,Savings,2023-08-24,Active,INR
+423,272,1,Savings,2026-04-24,Active,INR
+424,273,2,Savings,2015-11-16,Dormant,INR
+425,273,2,Savings,2017-12-03,Dormant,INR
+426,274,1,Fixed Deposit,2024-09-04,Active,INR
+427,275,1,Current,2024-08-15,Active,INR
+428,276,7,Savings,2017-03-11,Active,INR
+429,276,5,Savings,2020-03-19,Dormant,GBP
+430,277,7,Savings,2015-02-14,Active,INR
+431,278,2,Savings,2023-05-31,Active,INR
+432,278,6,Savings,2017-05-23,Active,INR
+433,279,5,Savings,2024-07-01,Active,GBP
+434,279,5,Fixed Deposit,2023-11-30,Active,GBP
+435,280,8,Savings,2025-11-06,Active,GBP
+436,281,6,Current,2023-12-06,Active,INR
+437,282,2,Current,2025-01-06,Active,INR
+438,282,3,Savings,2026-05-27,Active,INR
+439,283,1,Savings,2015-02-13,Active,INR
+440,284,8,Fixed Deposit,2024-10-06,Active,GBP
+441,284,5,Savings,2016-10-17,Active,GBP
+442,285,7,Current,2026-09-08,Active,INR
+443,285,1,Fixed Deposit,2018-12-06,Active,INR
+444,286,4,Fixed Deposit,2026-08-15,Active,GBP
+445,287,4,Current,2015-10-23,Active,GBP
+446,288,3,Savings,2021-03-10,Active,INR
+447,288,6,Current,2024-02-04,Active,INR
+448,289,2,Fixed Deposit,2021-05-19,Active,INR
+449,290,6,Savings,2021-03-15,Active,INR
+450,290,4,Savings,2024-01-23,Active,GBP
+451,291,7,Savings,2016-08-15,Active,INR
+452,292,2,Current,2020-10-12,Dormant,INR
+453,293,5,Current,2023-06-17,Active,GBP
+454,293,4,Current,2025-04-16,Active,GBP
+455,294,1,Savings,2020-10-13,Active,INR
+456,294,4,Current,2020-02-27,Active,GBP
+457,295,6,Savings,2015-03-21,Active,INR
+458,296,5,Savings,2022-09-02,Active,GBP
+459,297,8,Savings,2019-11-26,Dormant,GBP
+460,297,5,Savings,2019-04-07,Active,GBP
+461,297,4,Savings,2020-06-05,Dormant,GBP
+462,298,4,Current,2022-12-26,Active,GBP
+463,299,2,Current,2026-01-18,Active,INR
+464,300,1,Current,2023-04-29,Active,INR
+465,300,8,Fixed Deposit,2021-02-28,Active,GBP
+466,301,5,Savings,2017-11-16,Active,GBP
+467,301,7,Savings,2015-09-24,Active,INR
+468,301,7,Fixed Deposit,2018-12-02,Active,INR
+469,302,8,Savings,2015-03-10,Active,GBP
+470,303,2,Savings,2020-10-28,Active,INR
+471,304,5,Savings,2022-09-11,Active,GBP
+472,305,4,Savings,2023-05-08,Active,GBP
+473,306,8,Savings,2017-12-10,Closed,GBP
+474,307,2,Current,2020-04-15,Active,INR
+475,307,7,Savings,2018-05-10,Active,INR
+476,308,7,Savings,2026-08-06,Active,INR
+477,309,8,Savings,2016-01-26,Active,GBP
+478,310,1,Savings,2020-09-14,Active,INR
+479,310,2,Savings,2022-07-04,Active,INR
+480,311,5,Savings,2024-03-27,Active,GBP
+481,312,4,Current,2018-11-30,Closed,GBP
+482,312,5,Savings,2026-06-13,Active,GBP
+483,313,2,Savings,2021-06-05,Active,INR
+484,313,3,Fixed Deposit,2022-07-26,Active,INR
+485,314,7,Current,2016-08-07,Active,INR
+486,314,6,Savings,2022-02-08,Active,INR
+487,315,7,Savings,2024-12-23,Active,INR
+488,315,6,Current,2026-09-07,Closed,INR
+489,316,3,Fixed Deposit,2017-10-21,Active,INR
+490,317,2,Savings,2023-11-27,Active,INR
+491,317,2,Fixed Deposit,2025-08-12,Active,INR
+492,318,7,Savings,2016-11-12,Active,INR
+493,319,2,Current,2023-09-29,Active,INR
+494,319,4,Current,2024-12-09,Active,GBP
+495,320,3,Savings,2023-01-02,Dormant,INR
+496,321,8,Savings,2021-02-09,Active,GBP
+497,322,3,Current,2025-03-29,Active,INR
+498,323,7,Savings,2026-12-21,Active,INR
+499,323,6,Savings,2020-02-04,Active,INR
+500,324,6,Savings,2018-06-29,Active,INR
+501,325,3,Savings,2025-07-10,Active,INR
+502,326,8,Fixed Deposit,2025-09-13,Active,GBP
+503,326,7,Current,2020-03-09,Active,INR
+504,327,4,Savings,2024-10-20,Active,GBP
+505,328,7,Current,2019-12-13,Active,INR
+506,329,4,Savings,2021-02-05,Active,GBP
+507,330,5,Savings,2016-07-14,Active,GBP
+508,330,5,Savings,2025-03-19,Active,GBP
+509,331,8,Savings,2015-06-08,Active,GBP
+510,332,1,Savings,2017-04-17,Active,INR
+511,332,3,Current,2015-03-09,Active,INR
+512,332,3,Savings,2019-11-15,Active,INR
+513,333,8,Fixed Deposit,2025-05-26,Active,GBP
+514,334,2,Current,2018-04-11,Active,INR
+515,335,2,Savings,2019-01-27,Active,INR
+516,335,5,Current,2015-04-14,Active,GBP
+517,336,4,Savings,2024-12-07,Active,GBP
+518,336,1,Savings,2017-02-08,Active,INR
+519,337,8,Savings,2021-12-31,Dormant,GBP
+520,337,3,Current,2015-12-12,Active,INR
+521,337,2,Savings,2021-09-13,Active,INR
+522,338,4,Fixed Deposit,2020-04-17,Active,GBP
+523,338,6,Savings,2021-03-11,Active,INR
+524,339,4,Savings,2015-12-11,Active,GBP
+525,340,3,Savings,2017-01-03,Active,INR
+526,340,8,Savings,2022-08-04,Dormant,GBP
+527,341,1,Savings,2018-06-14,Active,INR
+528,341,2,Savings,2020-03-21,Active,INR
+529,341,6,Current,2024-11-02,Active,INR
+530,342,7,Savings,2018-01-08,Active,INR
+531,343,8,Current,2025-12-28,Active,GBP
+532,344,6,Savings,2025-07-04,Active,INR
+533,345,3,Savings,2018-06-23,Active,INR
+534,345,5,Savings,2025-03-08,Active,GBP
+535,346,7,Current,2015-06-03,Active,INR
+536,346,6,Current,2020-05-10,Active,INR
+537,347,7,Savings,2026-02-27,Active,INR
+538,348,5,Savings,2022-03-23,Active,GBP
+539,349,2,Savings,2017-11-29,Active,INR
+540,350,2,Savings,2017-03-19,Active,INR
+541,351,7,Current,2026-10-17,Active,INR
+542,351,5,Savings,2019-12-14,Active,GBP
+543,352,4,Current,2016-10-17,Active,GBP
+544,353,6,Current,2024-04-30,Dormant,INR
+545,353,1,Current,2020-12-17,Active,INR
+546,354,5,Savings,2019-11-04,Closed,GBP
+547,354,2,Savings,2020-03-07,Active,INR
+548,355,4,Current,2019-01-05,Active,GBP
+549,356,2,Current,2023-01-11,Active,INR
+550,356,7,Fixed Deposit,2018-09-28,Active,INR
+551,357,6,Current,2026-12-22,Closed,INR
+552,358,6,Fixed Deposit,2022-04-13,Dormant,INR
+553,359,7,Current,2022-04-03,Active,INR
+554,360,4,Savings,2020-09-12,Active,GBP
+555,360,8,Savings,2023-11-27,Active,GBP
+556,361,5,Current,2026-08-11,Active,GBP
+557,362,1,Savings,2019-12-23,Active,INR
+558,362,6,Savings,2021-03-10,Dormant,INR
+559,363,3,Savings,2025-04-29,Active,INR
+560,364,6,Fixed Deposit,2020-08-08,Active,INR
+561,365,2,Current,2019-11-17,Active,INR
+562,365,6,Current,2018-11-17,Active,INR
+563,366,2,Current,2021-09-26,Active,INR
+564,366,7,Savings,2016-04-03,Dormant,INR
+565,367,7,Savings,2017-09-14,Dormant,INR
+566,368,1,Current,2023-07-31,Active,INR
+567,369,6,Savings,2018-05-10,Active,INR
+568,370,3,Savings,2023-10-24,Closed,INR
+569,370,2,Savings,2021-07-01,Active,INR
+570,371,6,Savings,2016-02-08,Active,INR
+571,372,7,Savings,2017-12-04,Active,INR
+572,373,4,Savings,2019-05-26,Active,GBP
+573,374,4,Savings,2020-12-21,Active,GBP
+574,374,6,Current,2017-01-03,Active,INR
+575,374,7,Savings,2022-10-24,Active,INR
+576,375,1,Current,2018-10-18,Closed,INR
+577,376,8,Current,2024-11-17,Active,GBP
+578,376,4,Savings,2023-05-21,Active,GBP
+579,377,2,Savings,2016-03-22,Active,INR
+580,377,3,Fixed Deposit,2021-06-14,Active,INR
+581,378,2,Savings,2025-07-26,Active,INR
+582,378,4,Current,2019-10-02,Active,GBP
+583,379,5,Savings,2018-03-03,Active,GBP
+584,380,7,Current,2026-10-25,Active,INR
+585,380,3,Savings,2019-07-03,Active,INR
+586,381,1,Savings,2015-03-10,Active,INR
+587,381,5,Current,2023-01-29,Dormant,GBP
+588,382,7,Savings,2023-07-16,Active,INR
+589,383,6,Savings,2026-12-03,Active,INR
+590,383,4,Savings,2025-04-09,Active,GBP
+591,384,1,Savings,2026-11-15,Active,INR
+592,384,8,Savings,2018-07-10,Active,GBP
+593,385,6,Current,2020-04-18,Closed,INR
+594,385,5,Current,2020-10-11,Dormant,GBP
+595,386,1,Fixed Deposit,2021-04-14,Active,INR
+596,386,6,Fixed Deposit,2018-01-29,Active,INR
+597,387,4,Savings,2018-06-05,Active,GBP
+598,388,6,Savings,2017-12-15,Active,INR
+599,389,4,Fixed Deposit,2021-12-06,Active,GBP
+600,390,3,Savings,2018-04-04,Active,INR
+601,390,3,Savings,2026-12-15,Closed,INR
+602,391,6,Current,2018-04-07,Active,INR
+603,392,7,Fixed Deposit,2021-10-21,Active,INR
+604,392,5,Savings,2019-03-20,Active,GBP
+605,393,5,Current,2020-03-06,Active,GBP
+606,394,1,Savings,2025-09-09,Active,INR
+607,395,8,Current,2023-05-22,Active,GBP
+608,395,7,Savings,2018-01-31,Active,INR
+609,396,7,Current,2015-05-03,Dormant,INR
+610,397,4,Current,2019-07-20,Active,GBP
+611,397,2,Savings,2024-11-07,Dormant,INR
+612,397,8,Current,2025-04-06,Dormant,GBP
+613,398,1,Current,2023-07-14,Active,INR
+614,399,1,Savings,2025-02-16,Active,INR
+615,400,4,Savings,2023-11-15,Closed,GBP
+616,400,1,Current,2026-07-30,Active,INR
